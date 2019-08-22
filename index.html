@@ -1,68 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 	<head>
-		<title>
-			Insurtech News
-		</title>
-		<meta charset="utf-8">
-		
+		<title></title>
+		<meta charset="utf-8" >
+		<title>Insurtech</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
 		<style>
-			.container {
-				background-color: #A9A9A9;
+			.container-fluid {	
+				background-color: #DCDCDC;
+				width: 100%;
+			}
+			.box {
+				background-color: #87CEEB;
+				display: flex;
+			
+			}
+			.box2 {
+				background-color: #FFC0CB;
+				display: flex;
 				
 			}
-			.banner {
-				margin: 0 auto;
-				background-color: #DCDCDC;
-				width: 700px;
-				height:300px;
+			.box3 {
+				background-color: #FFFFFF;
+				display: flex;
 			}
-			.telainscrição {
-				background-color: #87CEFA;
-				width: 700px;
-				margin: 0 auto;
-				height:300px;
+			.texto {
+				color: #FF6347;
+				margin-bottom: 50px;
 			}
-			.newsletter {
-				background-color: #F0FFFF;
-				width: 700px;
-				margin: 0 auto;
-				height:300px;
+			.card {
+				flex-grow: 1;
 			}
-			.rodape {
-				background-color: #00FF00;
-				width: 700px;
-				margin: 0 auto;
-			}
-			.botaoinscrever {
-				background-color: #2eb2ff !important;
-				color: #ffffff !important;
-				display: inline-block;
-				font-weight: 500;
-				font-size: 16px;
-				line-height: 42px;
-				font-family: 'Helvetica', Arial, sans-serif;
-				width: auto;
-			}
-			</style>
+			
+		</style>
+		<script>
+		var today = new Date().toLocaleDateString(undefined, {
+			day:'numeric',
+			month: 'numeric',
+			year: 'numeric'
+		})
+	</script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="banner">
-				 <h1>LOGO</h1>
-				 <h1>Insurtech</h1>
-			</div>
-			<div class="telainscrição">
-				Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Atirei o pau no gatis, per gatis num morreus. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
-				<a href="formulario.html" class="botaoinscrever">Inscrever</a>
-				<p>Mussum Ipsum, cacilds vidis litro abertis. Aenean aliquam molestie leo, vitae iaculis nisl. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Atirei o pau no gatis, per gatis num morreus. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.</p>
-			</div>
-			<div class="newsletter">
-				Aqui terá as newsletters
-			</div>
-			<div class="rodape">
-				Aqui terá o rodape
-			</div>
+		<div class="container-fluid">
+			
 		</div>
+		<div class="box">
+			<div> 
+				<img src="img/Logo_Insuretech_fundo_azul_09.png">
+			</div>
+			
+		</div>
+			
+			<div class="box2">
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<h5 class="card-title">O que é Insurtech?</h5>
+					<p class="card-text">O termo Insurtech está modificando o mercado de seguros com novas tecnologias para melhorar a experiência do cliente e aumentar a concorrência.</p>
+					<a href="page1.html" class="btn btn-primary">Leia mais</a>
+				</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<h5 class="card-title">Evento - Insurtech Brasil 2020</h5>
+					<p class="card-text">Conheça as principais Startups nacionais e internacionais de Insurtech no principal evento de Startups de seguros da América Latina: Insurtech Brasil – 2020. Serão dez horas de cases de sucesso, Networking, oportunidades de mercado, palestras informativas e todas as novidades do mercado digital e inovador de seguros.</p>
+					<a href="page2.html" class="btn btn-primary">Leia mais</a>
+				</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<h5 class="card-title">INSURETECH CONNECT 2019</h5>
+					<p class="card-text">O maior encontro mundial de líderes e inovadores do setor de seguros. O futuro do seguro estará lá!</p>
+					<a href="page3.html" class="btn btn-primary">Leia mais</a>
+				</div>
+				</div>
+				
+			</div>
+			<div class="box2">
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<h5 class="card-title">O que é iPaaS e como essas plataformas nos ajudam?</h5>
+					<p class="card-text">Do inglês Integration Platafom As A Service, o iPaaS nada mais é do que uma plataforma de integração como serviço, em nuvem.</p>
+					<a href="page4.html" class="btn btn-primary">Leia mais</a>
+				</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<h5 class="card-title">4 grandes aprendizados que o Insurance Day 2019 trouxe de melhor às empresas de seguro.</h5>
+					<p class="card-text">Como um dos únicos eventos de Insurtechs brasileiras pode revelar aos profissionais do setor de seguros o quanto podem se beneficiar das inovações tecnológicas.
+ 
+“Não é de hoje que o Brasil é um dos mercados mais cobiçados pelas seguradoras do mundo todo, potencial de crescimento para os próximos anos quanto pela possibilidade de diversificação” afirma Antonio Cassio dos Santos – CEO da Generali. Visando esse panorama de possibilidades é que foi realizado no dia 08 de agosto o Insurance Day organizado pela StartSe.</p>
+					<a href="page5.html" class="btn btn-primary">Leia mais</a>
+				</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<h5 class="card-title">Insurtechs tornam mercado de seguros mais rápido, menos burocrático e sob medida para o cliente.</h5>
+					<p class="card-text">Nos últimos anos vários mercados passaram por mudanças graças as novas tecnologias. Todas elas dando mais dinâmica e poder de decisão aos clientes. Mas não foram eles os únicos beneficiados. De players do mercado financeiro a taxistas autônomos, todos tiveram de evoluir. 
+Com intuito de trazer essa evolução para o mercado de seguros, as Insurtechs já apresentaram seus benefícios para os segurados.</p>
+					<a href="page6.html" class="btn btn-primary">Leia mais</a>
+				</div>
+				</div>
+				
+			</div>
+			<div class="box3">
+				<div class="card-body">
+					<h5 class="card-title">Quer saber mais?</h5>
+					<p class="card-text">Inscreva -se aqui e receba nossas novidades!</p>
+					
+				</div>
+				<div class="card" style="width: 18rem;">
+					
+				<div class="card-body">
+					<form name="contact" method="POST" data-netlify="true">
+					<p>
+				<label>Nome: <input type="text" name="name" /></label>   
+					</p>
+					<p>
+				<label>E -mail: <input type="email" name="email" /></label>
+					</p>
+					<p>
+					<button type="submit" class="btn btn-primary">Inscrever</button>
+						</p>
+					</form>
+						
+				</div>
+				</div>
+				
+			</div>
 	</body>
 </html>
